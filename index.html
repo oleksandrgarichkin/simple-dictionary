@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Simple Dictionary - web application to find definition of word in English"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="src/style.css" />
+    <script defer src="src/script.js"></script>
+    <title>Dictionary</title>
+  </head>
+  <body>
+    <main class="main">
+      <div class="container">
+        <header class="header">
+          <h1 class="main-title">Simple Dictionary</h1>
+          <div class="search-block">
+            <form class="search">
+              <input
+                type="text"
+                class="input_search"
+                placeholder="Search: English"
+              />
+              <button class="btn search_btn">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="icon-search"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
+                  />
+                </svg>
+                <span>Search</span>
+              </button>
+            </form>
+          </div>
+        </header>
+        <div class="result"></div>
+      </div>
+    </main>
+  </body>
+</html>
