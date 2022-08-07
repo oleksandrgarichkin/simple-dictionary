@@ -40,7 +40,7 @@ html {
   /* Percentage of user's browser font-size settings */
   font-size: 62.5%;
 }
-*:focus {
+input:focus {
   outline: none;
   /* box-shadow: 0 0 0 0.2rem rgba(253, 242, 233, 0.5); */
 }
@@ -198,6 +198,9 @@ p {
   }
   .header {
     height: 200px;
+  }
+  .btn {
+    transition: none;
   }
 }
 /* Below 560 px */
