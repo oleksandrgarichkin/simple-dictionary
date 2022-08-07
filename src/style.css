@@ -44,9 +44,6 @@ html {
   outline: none;
   /* box-shadow: 0 0 0 0.2rem rgba(253, 242, 233, 0.5); */
 }
-input:focus {
-  outline-offset: 0;
-}
 p {
   font-family: "Rubik", sans-serif;
   font-size: 1.6rem;
@@ -89,7 +86,7 @@ p {
   border: none;
   width: 30rem;
   height: 100%;
-  font-size: 1.6rem;
+  font-size: 2.2rem;
   border-radius: 10rem;
 }
 .btn {
@@ -181,7 +178,6 @@ p {
 .sticky .search {
   border: 1px solid #ff922b;
 }
-
 /*MEDIA QUERIES*/
 /* Below 1003 px */
 @media (max-width: 63em) {
@@ -211,6 +207,7 @@ p {
   }
   .header {
     height: 180px;
+    padding: 0 1.6rem;
   }
   .btn {
     padding: 1.6rem 3.2rem;
