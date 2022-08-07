@@ -86,7 +86,7 @@ p {
   border: none;
   width: 30rem;
   height: 100%;
-  font-size: 2.2rem;
+  font-size: 1.6rem;
   border-radius: 10rem;
 }
 .btn {
@@ -187,6 +187,9 @@ p {
 @media (max-width: 63em) {
   html {
     font-size: 56.25%;
+  }
+  .input_search {
+    font-size: 2.2rem;
   }
   .header {
     height: 220px;
