@@ -99,12 +99,10 @@ p {
   transition: all 0.3s;
   background-color: #dee2e6;
 }
-.btn:hover,
 .btn:active {
   background-color: #ff922b;
   color: #fff;
 }
-
 .icon-search,
 .icon-audio {
   width: 2.2rem;
@@ -179,6 +177,12 @@ p {
   border: 1px solid #ff922b;
 }
 /*MEDIA QUERIES*/
+@media (hover: hover) {
+  .btn:hover {
+    background-color: #ff922b;
+    color: #fff;
+  }
+}
 /* Below 1003 px */
 @media (max-width: 63em) {
   html {
@@ -201,6 +205,10 @@ p {
   }
   .btn {
     transition: none;
+  }
+  .btn:active {
+    background-color: #ff922b;
+    color: #fff;
   }
 }
 /* Below 560 px */
