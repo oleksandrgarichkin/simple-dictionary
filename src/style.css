@@ -224,4 +224,10 @@ p {
   .search_btn span {
     display: none;
   }
+  .input_search {
+    width: 100%;
+  }
+  .search {
+    width: 80%;
+  }
 }
